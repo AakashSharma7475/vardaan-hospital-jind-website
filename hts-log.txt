@@ -1,0 +1,42 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 31 Mar 2026 11:45:03 at https://jthemes.net/themes/html/medservices/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +https://jthemes.net/themes/html/medservices/
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F  -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://jthemes.net/themes/html/medservices/ -O1 "C:\Users\sharm\Desktop\vardaan hospital website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +https://jthemes.net/themes/html/medservices/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:47:40	Error: 	"Forbidden" (403) at link https://jthemes.net/themes/html/medservices/assests/images/icons/browser.png (from https://jthemes.net/themes/html/medservices/)
+11:47:40	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/assests/images/icons/blocks.png (from https://jthemes.net/themes/html/medservices/)
+11:47:56	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/pricing-1.html (from https://jthemes.net/themes/html/medservices/)
+11:48:08	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/assests/js/custom.js (from https://jthemes.net/themes/html/medservices/)
+11:48:08	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/assests/css/owl.video.play.png (from https://jthemes.net/themes/html/medservices/assests/css/owl.carousel.min.css)
+11:48:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/color-scheme/l-02.jpg (from https://jthemes.net/themes/html/medservices/files/demo-1.html)
+11:48:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/quote.png (from https://jthemes.net/themes/html/medservices/files/demo-1.html)
+11:48:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/js/materialize.js (from https://jthemes.net/themes/html/medservices/files/demo-1.html)
+11:48:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/slider/slide-4.jpg (from https://jthemes.net/themes/html/medservices/files/demo-2.html)
+11:48:30	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/gallery/image-2.jpg (from https://jthemes.net/themes/html/medservices/files/demo-2.html)
+11:48:31	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/gallery/image-7.jpg (from https://jthemes.net/themes/html/medservices/files/demo-2.html)
+11:48:31	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/images/blog/header-post-1.jpg (from https://jthemes.net/themes/html/medservices/files/demo-4.html)
+11:48:31	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/images/blog/header-post-2.jpg (from https://jthemes.net/themes/html/medservices/files/demo-4.html)
+11:48:31	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/images/blog/header-post-3.jpg (from https://jthemes.net/themes/html/medservices/files/demo-4.html)
+11:48:31	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/slider/slide-8.jpg (from https://jthemes.net/themes/html/medservices/files/demo-7.html)
+11:48:31	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/general_dentistry_800x600.jpg (from https://jthemes.net/themes/html/medservices/files/demo-7.html)
+11:48:33	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/single-service.html (from https://jthemes.net/themes/html/medservices/files/demo-7.html)
+11:48:33	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/slider/slide-16.jpg (from https://jthemes.net/themes/html/medservices/files/demo-8.html)
+11:48:33	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/pricing.html (from https://jthemes.net/themes/html/medservices/files/demo-11.html)
+11:48:33	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/hematology_1000x500.jpg (from https://jthemes.net/themes/html/medservices/files/all-services.html)
+11:48:33	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/about.html (from https://jthemes.net/themes/html/medservices/files/service-2.html)
+11:48:34	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/departments.html (from https://jthemes.net/themes/html/medservices/files/department-single.html)
+11:48:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/gallery/image-13.jpg (from https://jthemes.net/themes/html/medservices/files/gallery.html)
+11:48:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/gallery/image-18.jpg (from https://jthemes.net/themes/html/medservices/files/gallery.html)
+11:48:35	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/images/bg01.jpg (from https://jthemes.net/themes/html/medservices/files/css/menu.css)
+11:48:35	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/css/owl.video.play.png (from https://jthemes.net/themes/html/medservices/files/css/owl.carousel.min.css)
+11:48:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/banner-2.jpg (from https://jthemes.net/themes/html/medservices/files/css/style.css)
+11:48:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/info-6.jpg (from https://jthemes.net/themes/html/medservices/files/css/style.css)
+11:48:36	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/images/contacts-1.jpg (from https://jthemes.net/themes/html/medservices/files/css/style.css)
+11:48:36	Error: 	"Not Found" (404) at link https://jthemes.net/themes/html/medservices/files/about.html (from https://jthemes.net/themes/html/medservices/files/service-2.html)
+11:48:37	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jthemes.net/themes/html/medservices/files/images/gallery/image-18.jpg (from https://jthemes.net/themes/html/medservices/files/gallery.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 38 seconds : 361 links scanned, 329 files written (18418175 bytes overall) [15414501 bytes received at 70708 bytes/sec], 3984258 bytes transferred using HTTP compression in 101 files, ratio 19%, 12.8 requests per connection
+(12 errors, 19 warnings, 0 messages)
