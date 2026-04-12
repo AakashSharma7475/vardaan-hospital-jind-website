@@ -1,3 +1,37 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/* WHAT'S APP FLOATING BUTTON */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 70px;
+  right: 26px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #128c7e;
+}
+
+.whatsapp-icon {
+  width: 35px;
+  height: 35px;
+}
+
 /* HEADER */
 .custom-header {
   background: #0a1932;

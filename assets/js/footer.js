@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-
   console.log("Footer Loaded ✅");
 
   // STEP 1: Find container
@@ -11,8 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Detect if page is in pages/ folder
-  const isInPages = window.location.pathname.includes('/pages/');
-  const imagePath = isInPages ? '../assets/images/vardaan-cross.png' : 'assets/images/vardaan-cross.png';
+  const isInPages = window.location.pathname.includes("/pages/");
+  const imagePath = isInPages
+    ? "../assets/images/vardaan-cross.png"
+    : "assets/images/vardaan-cross.png";
 
   // STEP 2: Inject footer HTML
   footerContainer.innerHTML = `
@@ -85,7 +86,10 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
 
     </div>
-  </footer>
+    </footer>
+    <a href="https://wa.me/9170828 77717?text=Hii%20I%20want%20to%20book%20an%20appointment" class="whatsapp-float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+    </a>
 
   `;
 
@@ -96,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
     scrollBtn.addEventListener("click", () => {
       window.scrollTo({
         top: 0,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     });
   }
@@ -114,5 +118,4 @@ document.addEventListener("DOMContentLoaded", function () {
       emergency.style.transform = "scale(1)";
     });
   }
-
 });
