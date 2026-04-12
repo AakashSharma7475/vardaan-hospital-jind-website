@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="description" content="Advanced orthopedic care in Jind for bones, joints, spine &amp; trauma treatment."/>
+		<meta name="keywords" content="VARDAAN Hospital Jind, orthopedic hospital, orthopedics, joint replacement, spine surgery, Jind, Haryana"/>
+	<title>About Us | VARDAAN Hospital Jind</title>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+		<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet"
+			crossorigin="anonymous">
+		<link href="../assets/css/flaticon.css" rel="stylesheet">
+		<link href="../assets/css/menu.css" rel="stylesheet">	
+		<link href="../assets/css/style.css" rel="stylesheet">
+		<link href="../assets/css/responsive.css" rel="stylesheet"> 
+		<link href="../assets/css/vardaan-hospital.css" rel="stylesheet">
+		<style>
+			@media (max-width: 991px) {
+				.about-page-section .container, 
+				.about-page-section .row,
+				.about-page-section [class*="col-"] {
+					padding: 0 !important;
+					margin: 0 !important;
+					max-width: 100% !important;
+					width: 100% !important;
+				}
+				.about-card-enhanced {
+					padding: 0 !important;
+					margin: 0 !important;
+					border-radius: 0 !important;
+					box-shadow: none !important;
+					border: none !important;
+					display: flex !important;
+					flex-direction: column !important;
+				}
+
+				.about-card-badge {
+					order: 1 !important; /* Force to absolute top */
+					text-align: center !important;
+					color: #000 !important; 
+					font-weight: 800 !important; 
+					font-size: 1.3rem !important; 
+					margin: 25px auto 10px !important;
+					width: 100% !important;
+					display: block !important;
+				}
+
+				.about-reorder-row {
+					order: 2 !important; /* Sit below the badge */
+					display: flex !important;
+					flex-direction: column !important;
+					align-items: center !important;
+					width: 100% !important;
+					margin: 0 !important;
+					padding: 0 !important;
+				}
+
+				.about-reorder-row > div {
+					width: 100% !important;
+					max-width: 100% !important;
+					display: flex !important;
+					flex-direction: column !important;
+					align-items: center !important;
+					padding: 0 !important;
+					margin: 0 !important;
+				}
+
+				.about-card-title {
+					order: 1 !important;
+					text-align: center !important;
+					font-size: 1.4rem !important;
+					font-weight: 400 !important;
+					padding: 0 20px 20px !important;
+					width: 100% !important;
+					color: #475569 !important;
+				}
+
+				.about-img-frame {
+					order: 2 !important;
+					width: 90% !important;
+					max-width: 400px !important;
+					margin: 15px auto !important;
+					border-radius: 20px !important;
+					overflow: hidden !important;
+					box-shadow: 0 10px 40px rgba(0,0,0,0.15) !important;
+					position: relative !important;
+					display: block !important;
+				}
+
+				.about-img-frame img {
+					width: 100% !important;
+					height: auto !important;
+					display: block !important;
+					margin: 0 auto !important;
+				}
+
+				.doctor-name-overlay {
+					position: absolute !important;
+					bottom: 0 !important;
+					left: 0 !important;
+					width: 100% !important;
+					background: rgba(0, 0, 0, 0.65) !important;
+					color: #fff !important;
+					padding: 15px 5px !important;
+					text-align: center !important;
+					font-weight: 700 !important;
+					font-size: 1.15rem !important;
+				}
+
+				.about-card-paragraph {
+					order: 3 !important;
+					text-align: center !important;
+					padding: 20px 25px !important;
+					font-size: 0.95rem !important;
+					line-height: 1.7 !important;
+					width: 100% !important;
+				}
+
+				.about-card-features {
+					order: 4 !important;
+					display: flex !important;
+					flex-wrap: wrap !important;
+					justify-content: center !important;
+					gap: 15px !important;
+					padding: 10px 20px !important;
+					width: 100% !important;
+				}
+
+				.about-feature-item {
+					flex: 0 0 45% !important;
+					text-align: center !important;
+					display: flex !important;
+					flex-direction: column !important;
+					align-items: center !important;
+				}
+
+				.about-quick-stats {
+					order: 6 !important;
+					display: flex !important;
+					flex-direction: row !important;
+					justify-content: space-evenly !important;
+					background: #f0f7ff !important;
+					margin: 25px 0 !important;
+					padding: 25px 0 !important;
+					width: 100% !important;
+				}
+
+				.signature-box-center, .signature-box {
+					order: 7 !important;
+					text-align: center !important;
+					width: 100% !important;
+					padding: 20px !important;
+					display: flex !important;
+					flex-direction: column !important;
+					align-items: center !important;
+				}
+
+				.about-footer-action {
+					order: 8 !important;
+					padding: 20px 20px 40px !important;
+					text-align: center !important;
+				}
+
+				.experience-badge, .experience-badge-mobile {
+					display: none !important;
+				}
+			}
+
+				.about-card-features {
+					order: 5 !important;
+					padding: 10px 20px !important;
+					display: flex !important;
+					flex-wrap: wrap !important;
+					justify-content: center !important;
+					gap: 15px !important;
+					width: 100% !important;
+				}
+
+				.about-feature-item {
+					flex: 0 0 45% !important;
+					display: flex !important;
+					flex-direction: column !important;
+					align-items: center !important;
+					text-align: center !important;
+				}
+
+				.about-quick-stats {
+					order: 6 !important;
+					padding: 25px 20px !important;
+					display: flex !important;
+					flex-direction: row !important;
+					justify-content: center !important;
+					align-items: center !important;
+					gap: 20px !important;
+					background: #f0f7ff !important;
+					margin: 20px 0 !important;
+					width: 100% !important;
+				}
+
+				.signature-box-center {
+					order: 7 !important;
+					padding: 20px !important;
+					text-align: center !important;
+					width: 100% !important;
+					display: flex !important;
+					flex-direction: column !important;
+					align-items: center !important;
+				}
+
+				.signature-box-center p {
+					text-align: center !important;
+					margin: 0 auto !important;
+				}
+
+				.signature-box {
+					display: none !important;
+				}
+
+				.about-footer-action {
+					order: 7 !important;
+					padding: 10px 20px 30px !important;
+					text-align: center !important;
+				}
+			}
+		</style>
+
+	</head>
+	<body>
+
+		<div id="page" class="page">
+
+		<div id="header-container"></div>
+	<script src="../assets/js/header.js"></script>
+
+
+		<section class="about-page-section division">
+			<!-- BACKGROUND EFFECTS -->
+			<div class="hero-bg-glow glow-1"></div>
+			<div class="hero-bg-glow glow-2"></div>
+
+			<div class="container">
+				<div class="row d-flex align-items-center justify-content-center">
+					<div class="col-lg-11 col-xl-10">
+						<div class="about-card-enhanced">
+
+							<!-- BADGE -->
+							<div class="about-card-badge">About Our Hospital</div>
+
+							<div class="row about-reorder-row">
+								<!-- IMAGE SECTION: FULL WIDTH TOP -->
+								<div class="col-lg-12">
+									<div class="about-card-right">
+										<div class="about-img-frame">
+											<img src="../assets/images/blog/d1.jpeg" alt="VARDAAN Hospital Facility" class="img-fluid about-main-img"/>
+											<div class="doctor-name-overlay">Dr. Ankush Berwal</div>
+										</div>
+
+										<div class="about-quick-stats">
+											<div class="about-stat">
+												<span class="stat-num">5000+</span>
+												<span class="stat-label">Surgeries</span>
+											</div>
+											<div class="about-stat">
+												<span class="stat-num">10k+</span>
+												<span class="stat-label">Patients</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- TEXT SECTION: FULL WIDTH BOTTOM -->
+								<div class="col-lg-12">
+									<div class="about-content-left text-center">
+										<h2 class="about-card-title steelblue-color">
+											Compassionate <span class="blue-color">Orthopedic</span> Excellence
+										</h2>
+
+										<p class="about-card-paragraph mx-auto" style="max-width: 900px;">
+											VARDAAN Hospital Jind is a premier healthcare institution dedicated to providing advanced orthopedic and trauma care. Led by **Dr. Ankush Berwal (M.S. Orthopaedics)**, our hospital combines clinical expertise with modern surgical technology to restore mobility and improve quality of life.
+										</p>
+
+										<p class="about-card-paragraph mx-auto" style="max-width: 900px;">
+											From complex joint replacements to precision spine surgeries, we believe in a patient-first approach. Our facility is equipped with high-frequency digital X-rays, modern modular operation theaters, and specialized recovery suites to ensure the highest standards of safety and care.
+										</p>
+
+										<!-- FEATURES LIST -->
+										<div class="about-card-features justify-content-center">
+											<div class="about-feature-item">
+												<i class="fas fa-microchip"></i>
+												<span>Modern Technology</span>
+											</div>
+											<div class="about-feature-item">
+												<i class="fas fa-user-md"></i>
+												<span>Expert Specialists</span>
+											</div>
+											<div class="about-feature-item">
+												<i class="fas fa-clock"></i>
+												<span>24/7 Trauma Care</span>
+											</div>
+											<div class="about-feature-item">
+												<i class="fas fa-heartbeat"></i>
+												<span>Patient-First Policy</span>
+											</div>
+											<div class="about-feature-item trust-item">
+												<i class="fas fa-certificate"></i>
+												<span>15+ Years of Trust</span>
+											</div>
+										</div>
+
+										<div class="signature-box-center">
+											<p class="steelblue-color"><strong>Dr. Ankush Berwal</strong><br><span class="blue-color">Senior Orthopedic Surgeon</span></p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- BACK BUTTON -->
+							<div class="about-footer-action">
+								<a href="demo-4.html" class="btn-back-home">
+									<i class="fas fa-long-arrow-alt-left"></i>
+									<span>Back to Home Page</span>
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+			<div id="footer-container"></div>
+<script src="../assets/js/footer.js"></script>
+
+
+		<!-- EXTERNAL SCRIPTS
+		============================================= -->	
+		<script src="../assets/js/jquery-3.3.1.min.js"></script>
+		<script src="../assets/js/bootstrap.min.js"></script>	
+		<script src="../assets/js/modernizr.custom.js"></script>
+		<script src="../assets/js/jquery.easing.js"></script>
+		<script src="../assets/js/jquery.appear.js"></script>
+		<script src="../assets/js/jquery.stellar.min.js"></script>	
+		<script src="../assets/js/menu.js"></script>
+		<script src="../assets/js/sticky.js"></script>
+		<script src="../assets/js/jquery.scrollto.js"></script>
+		<script src="../assets/js/materialize.js"></script>	
+		<script src="../assets/js/owl.carousel.min.js"></script>
+		<script src="../assets/js/jquery.magnific-popup.min.js"></script>	
+		<script src="../assets/js/imagesloaded.pkgd.min.js"></script>
+		<script src="../assets/js/isotope.pkgd.min.js"></script>
+		<script src="../assets/js/hero-form.js"></script>
+		<script src="../assets/js/contact-form.js"></script>
+		<script src="../assets/js/comment-form.js"></script>
+		<script src="../assets/js/appointment-form.js"></script>
+		<script src="../assets/js/jquery.datetimepicker.full.js"></script>
+		<script src="../assets/js/jquery.validate.min.js"></script>	
+		<script src="../assets/js/jquery.ajaxchimp.min.js"></script>
+		<script src="../assets/js/wow.js"></script>	
+
+		<!-- Custom Script -->		
+		<script src="../assets/js/custom.js"></script>
+
+		<script> 
+			new WOW().init();
+		</script>
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+		<!-- [if lt IE 9]>
+			<script src="../assets/js/html5shiv.js" type="text/javascript"></script>
+			<script src="../assets/js/respond.min.js" type="text/javascript"></script>
+		<![endif] -->
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->	
+		<!--
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-XXXXX-X', 'yourdomain.com');
+			ga('send', 'pageview');
+		</script>
+		-->
+
+
