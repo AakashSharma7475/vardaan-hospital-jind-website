@@ -174,6 +174,30 @@
 				width: 100% !important;
 			}
 
+			/* Centering Features on Mobile */
+			.service-card-features {
+				display: flex !important;
+				flex-direction: column !important;
+				align-items: center !important;
+				gap: 10px !important;
+				margin: 25px 0 !important;
+				width: 100% !important;
+			}
+
+			.s-feature-item {
+				width: 90% !important;
+				max-width: 320px !important;
+				justify-content: center !important;
+				margin: 0 auto !important;
+				padding: 10px 15px !important;
+			}
+
+			.service-card-paragraph {
+				text-align: center !important;
+				padding: 0 15px !important;
+				margin-bottom: 15px !important;
+			}
+
 			/* Center Doctor Section & Reduce Gap */
 			#doctors-1.wide-60 {
 				padding-top: 0 !important;
@@ -277,15 +301,13 @@
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="all-services.html">Services</a></li>
-					
-									</li>
+									<li class="breadcrumb-item active" aria-current="page">Service Details</li>
 								</ol>
 							</nav>
 
 							<div class="row no-gutters d-flex align-items-start" style="gap: 0;">
 								<!-- LEFT SIDE: IMAGE -->
-								<div class="col-md-6 col-lg-6" style="padding-right: 50px;">
+								<div class="col-md-7 col-lg-7" style="padding-right: 35px;">
 									<div class="service-card-left">
 										<div class="service-tag">Advanced Imaging</div>
 
@@ -308,7 +330,7 @@
 								</div>
 
 								<!-- RIGHT SIDE: TEXT CONTENT -->
-								<div class="col-md-6 col-lg-6">
+								<div class="col-md-5 col-lg-5">
 									<div class="service-content-right">
 										<h2 class="service-card-title steelblue-color">
 											X-Ray <span class="blue-color">Imaging</span>
@@ -346,6 +368,237 @@
 											<div class="s-feature-item">
 												<i class="fas fa-check-circle"></i>
 												<span>Pre-Surgical Planning</span>
+											</div>
+										</div>
+
+										<div class="service-action-box">
+											<a href="appointment.html" class="btn-book-service">
+												<i class="fas fa-calendar-check"></i>
+												<span>Book an Appointment</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- SEPARATOR -->
+							<div class="service-divider" style="margin: 60px 0; border-top: 1px solid #e2e8f0; opacity: 0.5;"></div>
+
+							<!-- NEW SERVICE: Orthopedic Trauma & Fracture Care -->
+							<div class="row no-gutters d-flex align-items-start" style="gap: 0;">
+								<!-- LEFT SIDE: IMAGE -->
+								<div class="col-md-7 col-lg-7" style="padding-right: 35px;">
+									<div class="service-card-left">
+										<div class="service-tag">Trauma Care</div>
+
+										<div class="service-img-frame">
+											<img src="../assets/images/blog/d12.jpeg" alt="Orthopedic Trauma & Fracture Care"
+												class="img-fluid service-main-img" />
+										</div>
+
+										<div class="service-quick-info">
+											<div class="s-info-item">
+												<i class="fas fa-user-md"></i>
+												<span>Specialized Trauma Team</span>
+											</div>
+											<div class="s-info-item">
+												<i class="fas fa-tools"></i>
+												<span>Modern Fixation</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- RIGHT SIDE: TEXT CONTENT -->
+								<div class="col-md-5 col-lg-5">
+									<div class="service-content-right">
+										<h2 class="service-card-title steelblue-color">
+											Orthopedic Trauma & <span class="blue-color">Fracture Care</span>
+										</h2>
+
+										<p class="service-card-paragraph">
+											We provide advanced treatment for complex fractures using modern fixation techniques, ensuring precise alignment and faster recovery.
+										</p>
+
+										<p class="service-card-paragraph">
+											Our specialists use external fixation systems for severe bone injuries, open fractures, and trauma cases, allowing stability while minimizing damage to surrounding tissues.
+										</p>
+
+										<p class="service-card-paragraph">
+											With a focus on accuracy and patient safety, we ensure proper bone healing, reduced complications, and a quicker return to daily activities.
+										</p>
+
+										<!-- KEY FEATURES -->
+										<div class="service-card-features">
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Complex Fracture Treatment</span>
+											</div>
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>External Fixation Systems</span>
+											</div>
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Expert Trauma Management</span>
+											</div>
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Accelerated Rehabilitation</span>
+											</div>
+										</div>
+
+										<div class="service-action-box">
+											<a href="appointment.html" class="btn-book-service">
+												<i class="fas fa-calendar-check"></i>
+												<span>Book an Appointment</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- SEPARATOR -->
+							<div class="service-divider" style="margin: 60px 0; border-top: 1px solid #e2e8f0; opacity: 0.5;"></div>
+
+							<!-- NEW SERVICE: CISRF Interlocking -->
+							<div class="row no-gutters d-flex align-items-start" style="gap: 0;">
+								<!-- LEFT SIDE: IMAGE -->
+								<div class="col-md-7 col-lg-7" style="padding-right: 35px;">
+									<div class="service-card-left">
+										<div class="service-tag">Surgical Procedure</div>
+
+										<div class="service-img-frame">
+											<img src="../assets/images/blog/d13.png" alt="CISRF Interlocking"
+												class="img-fluid service-main-img" />
+										</div>
+
+										<div class="service-quick-info">
+											<div class="s-info-item">
+												<i class="fas fa-microscope"></i>
+												<span>Minimally Invasive</span>
+											</div>
+											<div class="s-info-item">
+												<i class="fas fa-bones"></i>
+												<span>Long Bone Stability</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- RIGHT SIDE: TEXT CONTENT -->
+								<div class="col-md-5 col-lg-5">
+									<div class="service-content-right">
+										<h2 class="service-card-title steelblue-color">
+											CISRF <span class="blue-color">Interlocking</span>
+										</h2>
+
+										<p class="service-card-paragraph">
+											CISRF Interlocking is an advanced orthopedic surgical procedure used to treat long bone fractures such as the femur (thigh bone), tibia (leg bone), and humerus (arm bone). This technique involves inserting a strong metal rod (nail) inside the bone canal to stabilize and align the fractured bone.
+										</p>
+
+										<p class="service-card-paragraph">
+											The “interlocking” system uses special screws at both ends of the rod to hold the bone firmly in place, ensuring proper healing and preventing movement at the fracture site.
+										</p>
+
+										<p class="service-card-paragraph">
+											<strong>Conditions Treated:</strong> Road accident fractures, complex long bone fractures, non-healing (non-union) fractures, and multiple bone injuries.
+										</p>
+
+										<!-- KEY FEATURES -->
+										<div class="service-card-features">
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Strong & Stable Fixation</span>
+											</div>
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Early Movement Recovery</span>
+											</div>
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Smaller Incisions</span>
+											</div>
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Reduced Healing Risk</span>
+											</div>
+										</div>
+
+										<div class="service-action-box">
+											<a href="appointment.html" class="btn-book-service">
+												<i class="fas fa-calendar-check"></i>
+												<span>Book an Appointment</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- SEPARATOR -->
+							<div class="service-divider" style="margin: 60px 0; border-top: 1px solid #e2e8f0; opacity: 0.5;"></div>
+
+							<!-- NEW SERVICE: ACL Injury & Reconstruction -->
+							<div class="row no-gutters d-flex align-items-start" style="gap: 0;">
+								<!-- LEFT SIDE: IMAGE -->
+								<div class="col-md-7 col-lg-7" style="padding-right: 35px;">
+									<div class="service-card-left">
+										<div class="service-tag">Sports Injury</div>
+
+										<div class="service-img-frame">
+											<img src="../assets/images/blog/d14.jpeg" alt="ACL Injury & Reconstruction"
+												class="img-fluid service-main-img" />
+										</div>
+
+										<div class="service-quick-info">
+											<div class="s-info-item">
+												<i class="fas fa-running"></i>
+												<span>Sports Medicine</span>
+											</div>
+											<div class="s-info-item">
+												<i class="fas fa-video"></i>
+												<span>Arthroscopic View</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- RIGHT SIDE: TEXT CONTENT -->
+								<div class="col-md-5 col-lg-5">
+									<div class="service-content-right">
+										<h2 class="service-card-title steelblue-color">
+											ACL Injury & <span class="blue-color">Reconstruction</span>
+										</h2>
+
+										<p class="service-card-paragraph">
+											ACL (Anterior Cruciate Ligament) is one of the major ligaments of the knee that helps maintain stability and control during movement. ACL injuries are very common, especially during sports activities, sudden twisting, or road accidents.
+										</p>
+
+										<p class="service-card-paragraph">
+											<strong>Symptoms:</strong> Sudden "pop" sound, severe pain and swelling, instability while walking, feeling of the knee "giving way."
+										</p>
+
+										<p class="service-card-paragraph">
+											<strong>Treatment:</strong> Our specialists perform advanced arthroscopic (minimally invasive) reconstruction, replacing the torn ligament with a graft to ensure precision and faster recovery.
+										</p>
+
+										<!-- KEY FEATURES -->
+										<div class="service-card-features">
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Knee Stability Restoration</span>
+											</div>
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Minimally Invasive Care</span>
+											</div>
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Sports Performance Return</span>
+											</div>
+											<div class="s-feature-item">
+												<i class="fas fa-check-circle"></i>
+												<span>Customized Rehabilitation</span>
 											</div>
 										</div>
 

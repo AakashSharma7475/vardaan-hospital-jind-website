@@ -84,11 +84,16 @@
 			}
 
 			.doctor-img-frame-main {
-				width: 90% !important;
+				width: calc(100% - 32px) !important;
 				max-width: 380px !important;
 				margin: 20px auto !important;
 				border-radius: 20px !important;
 				display: block !important;
+			}
+
+			.doctor-main-img-large {
+				border-radius: 20px !important;
+				width: 100% !important;
 			}
 
 			.doctor-details-right {
@@ -147,6 +152,14 @@
 				text-align: center !important;
 			}
 		}
+
+		/* Tablet and Desktop Centering */
+		@media (min-width: 992px) {
+			.doctor-img-frame-main {
+				margin: 0 auto 40px auto !important;
+				display: block !important;
+			}
+		}
 	</style>
 </head>
 
@@ -190,7 +203,7 @@
 							<div class="row">
 								<!-- TOP: IMAGE -->
 								<div class="col-lg-12">
-									<div class="doctor-img-frame-main">
+									<div class="doctor-img-frame-main" style="margin: 0 auto 40px auto !important; display: block !important; width: fit-content !important; float: none !important; position: relative !important;">
 										<img src="../assets/images/blog/d3.jpeg" alt="Dr. Ankush Berwal"
 											class="img-fluid doctor-main-img-large" />
 										<div class="doctor-rank-tag">NEET SS Rank 37</div>
