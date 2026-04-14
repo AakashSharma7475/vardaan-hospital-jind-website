@@ -5078,10 +5078,11 @@ img:not(.vardaan-brand-mark):not([class*="ico-"]):not(.loader):not([src*="favico
   background: #ffffff;
   border-radius: 40px;
   box-shadow: 0 30px 100px rgba(0, 0, 0, 0.08);
-  padding: 60px;
+  padding: 60px 0 0 0; /* Horizontal padding removed to allow edge-to-edge image */
   position: relative;
   z-index: 5;
   border: 1px solid rgba(0, 0, 0, 0.03);
+  overflow: hidden;
 }
 
 .about-card-badge {
@@ -5179,12 +5180,16 @@ img:not(.vardaan-brand-mark):not([class*="ico-"]):not(.loader):not([src*="favico
 .about-img-frame {
   position: relative;
   width: 100% !important;
-  max-width: 800px; 
-  margin: 0 auto !important; /* Forced Center */
+  margin: 0 !important;
   display: block !important;
-  border-radius: 30px;
+  border-radius: 0;
   overflow: hidden;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  box-shadow: none; /* Shadow removed for cleaner edge-to-edge look */
+}
+
+/* Add padding back to the text section only */
+.about-content-left {
+  padding: 40px 60px 60px 60px !important;
 }
 
 .about-main-img {
@@ -5301,12 +5306,19 @@ img:not(.vardaan-brand-mark):not([class*="ico-"]):not(.loader):not([src*="favico
 
 .service-card-enhanced {
   background: #ffffff;
-  border-radius: 40px;
-  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.08);
-  padding: 50px;
+  border-radius: 45px;
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.06);
+  padding: 80px 60px; /* Generous balance for premium feel */
   position: relative;
   z-index: 5;
-  border: 1px solid rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.service-card-enhanced:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 50px 150px rgba(0, 0, 0, 0.09);
 }
 
 .service-card-enhanced .breadcrumb {
@@ -5373,19 +5385,29 @@ img:not(.vardaan-brand-mark):not([class*="ico-"]):not(.loader):not([src*="favico
   font-size: 0.95rem;
 }
 
+.service-card-left {
+  padding: 0;
+  width: 100%;
+}
+
 .service-img-frame {
   position: relative;
+  width: 100% !important;
   border-radius: 25px;
   overflow: hidden;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
   margin-bottom: 25px;
+  background: transparent;
 }
 
 .service-main-img {
-  width: 100%;
-  height: 320px;
+  width: 100% !important;
+  display: block;
+  height: auto;
+  aspect-ratio: 3/2;
   object-fit: cover;
-  transition: transform 0.8s ease;
+  border-radius: 25px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  transition: transform 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .service-img-frame:hover .service-main-img {
@@ -5393,23 +5415,41 @@ img:not(.vardaan-brand-mark):not([class*="ico-"]):not(.loader):not([src*="favico
 }
 
 .service-tag {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  display: inline-block;
+  margin-bottom: 25px;
   background: #007bff;
   color: #ffffff;
-  padding: 6px 15px;
+  padding: 10px 22px;
   border-radius: 50px;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+  z-index: 5;
+}
+
+/* Restore padding to text section */
+.service-content-right {
+  padding: 0 !important;
+}
+
+/* Add padding to breadcrumb */
+.service-card-enhanced .breadcrumb {
+  padding: 0 !important;
+  margin-bottom: 35px;
 }
 
 .service-quick-info {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 25px;
+  padding: 22px;
+  background: #f8fafc;
+  border-radius: 25px;
+  border: 1px solid #edf2f7;
 }
 
 .s-info-item {
@@ -5514,26 +5554,27 @@ img:not(.vardaan-brand-mark):not([class*="ico-"]):not(.loader):not([src*="favico
     padding: 30px 20px !important;
   }
 
-  /* Target Class for edge-to-edge elements - DEFINITIVE 100VW TRICK */
+  /* Target Class for edge-to-edge elements - FULL WIDTH CENTERED */
   .edge-to-edge-mobile {
-    width: 100vw !important;
+    width: 100% !important;
     position: relative !important;
-    left: 50% !important;
-    right: 50% !important;
-    margin-left: -50vw !important;
-    margin-right: -50vw !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     padding: 0 !important;
     border-radius: 0 !important;
     overflow: hidden !important;
+    display: block !important;
   }
 
   .edge-to-edge-mobile img {
     width: 100% !important;
     height: auto !important;
     border-radius: 0 !important;
-    /* Force removal of site-wide 20px radius */
     display: block !important;
     object-fit: cover !important;
+    margin: 0 auto !important;
   }
 
   .experience-badge {

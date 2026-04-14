@@ -62,11 +62,12 @@
 	<style>
 		/* FORCE HIDE PARAGRAPHS ON MOBILE - Heading Only View */
 		@media (max-width: 767px) {
-			section p, 
-			.hero-txt p, 
-			.section-title p, 
-			.txt-block p, 
-			.sbox-7 p, 
+
+			section p,
+			.hero-txt p,
+			.section-title p,
+			.txt-block p,
+			.sbox-7 p,
 			#hero-4 p {
 				display: none !important;
 				height: 0 !important;
@@ -75,9 +76,12 @@
 				visibility: hidden !important;
 				opacity: 0 !important;
 			}
-			
+
 			/* Pull headings closer to the top after text removal */
-			.hero-txt h2, .section-title h3, .txt-block h3, #hero-4 h2 {
+			.hero-txt h2,
+			.section-title h3,
+			.txt-block h3,
+			#hero-4 h2 {
 				padding-top: 25px !important;
 				margin-top: 0 !important;
 			}
@@ -85,7 +89,8 @@
 			/* SPECIALIZED ORTHOPEDIC CARE MOBILE REORDERING */
 			@media (max-width: 768px) {
 				#tabs-1 .section-title p {
-					display: none !important; /* Hide the main section description if requested heading only */
+					display: none !important;
+					/* Hide the main section description if requested heading only */
 				}
 
 				#tabs-1 .tab-pane .row {
@@ -94,12 +99,14 @@
 				}
 
 				#tabs-1 .order-last.order-lg-first {
-					order: 1 !important; /* Image on top of text on mobile */
+					order: 1 !important;
+					/* Image on top of text on mobile */
 					margin-bottom: 25px !important;
 				}
 
 				#tabs-1 .order-first.order-lg-last {
-					order: 2 !important; /* Text below image on mobile */
+					order: 2 !important;
+					/* Text below image on mobile */
 				}
 
 				/* Premium Tabs Styling for Mobile */
@@ -112,7 +119,8 @@
 				}
 
 				#tabs-nav .nav-pills .nav-item {
-					flex: 0 0 46% !important; /* 2 tabs per row on mobile */
+					flex: 0 0 46% !important;
+					/* 2 tabs per row on mobile */
 					margin: 0 !important;
 				}
 
@@ -143,7 +151,7 @@
 					border-color: #007bff !important;
 					color: #007bff !important;
 				}
-				
+
 				#tabs-nav .nav-pills .nav-link.active:hover {
 					color: #ffffff !important;
 				}
@@ -180,21 +188,23 @@
 					font-size: 0.9rem !important;
 					line-height: 1.4 !important;
 				}
-				
+
 				#tabs-1 .box-list-icon {
 					flex: 0 0 15px !important;
 					margin-top: 3px !important;
 				}
 
 				#tabs-1 .txt-block h3 {
-					padding-top: 0 !important; /* Removed padding since it's now below image */
-					text-align: center !important; /* Centered as requested */
+					padding-top: 0 !important;
+					/* Removed padding since it's now below image */
+					text-align: center !important;
+					/* Centered as requested */
 					font-size: 1.6rem !important;
 					margin-bottom: 22px !important;
 					font-weight: 700 !important;
 					width: 100% !important;
 				}
-				
+
 				#tabs-1 .btn {
 					width: 100% !important;
 					margin-top: 20px !important;
@@ -203,6 +213,7 @@
 
 			/* ADVANCED ORTHOPEDIC FACILITIES - CLEAN TABLET/MOBILE LAYOUT */
 			@media (max-width: 768px) {
+
 				/* Restore proper block display — display:contents caused children to
 				   escape their containers and overlap the image. */
 				.tech-reorder-row {
@@ -246,7 +257,8 @@
 
 				/* Text column: full width, BELOW image, NOT overlapping */
 				.tech-text-col {
-					display: block !important;		/* NOT contents */
+					display: block !important;
+					/* NOT contents */
 					width: 100% !important;
 					max-width: 100% !important;
 					flex: 0 0 100% !important;
@@ -255,7 +267,8 @@
 				}
 
 				.tech-txt-block {
-					display: block !important;		/* NOT contents */
+					display: block !important;
+					/* NOT contents */
 					padding: 25px 20px !important;
 					margin-top: 0 !important;
 					text-align: center !important;
@@ -347,7 +360,7 @@
 
 			/* BLOG SECTION MOBILE OPTIMIZATION - COMPLETE VISIBILITY FIX */
 			@media (max-width: 768px) {
-				
+
 				/* Override global 'section p' hide rule specifically for blog cards */
 				#blog-1 .blog-card p,
 				#blog-1 p.blog-card-excerpt {
@@ -437,7 +450,8 @@
 			/* SPECIFIC FIX FOR ORTHOPEDIC SERVICES SECTION (#services-7) */
 			@media (max-width: 767px) {
 				#services-7 .section-title h3 {
-					padding-top: 110px !important; /* Massive space to clear header overlap */
+					padding-top: 110px !important;
+					/* Massive space to clear header overlap */
 					margin-bottom: 25px !important;
 					display: block !important;
 					visibility: visible !important;
@@ -451,24 +465,31 @@
 					flex-direction: column !important;
 					align-items: center !important;
 					justify-content: center !important;
-					width: 125px !important; /* Fixed Width */
-					height: 125px !important; /* Fixed Height - Forces Square */
-					min-height: 125px !important; /* Prevent stretching */
-					max-height: 125px !important; /* Prevent stretching */
+					width: 125px !important;
+					/* Fixed Width */
+					height: 125px !important;
+					/* Fixed Height - Forces Square */
+					min-height: 125px !important;
+					/* Prevent stretching */
+					max-height: 125px !important;
+					/* Prevent stretching */
 					margin: 0 auto 15px !important;
 					padding: 10px !important;
 					border-radius: 12px !important;
 					background: #ffffff !important;
-					border: 1px solid #cbd5e1 !important; /* Clearly visible light grey-blue border */
+					border: 1px solid #cbd5e1 !important;
+					/* Clearly visible light grey-blue border */
 					box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
 					transition: all 0.3s ease-in-out !important;
 					text-align: center !important;
 					overflow: hidden !important;
-					flex: none !important; /* Disable flex-stretch from parent */
+					flex: none !important;
+					/* Disable flex-stretch from parent */
 				}
 
 				/* Blue border on hover */
-				#services-7 .sbox-7:hover, #services-7 .sbox-7:active {
+				#services-7 .sbox-7:hover,
+				#services-7 .sbox-7:active {
 					transform: translateY(-4px) !important;
 					border-color: #007bff !important;
 					border-width: 1.5px !important;
@@ -476,14 +497,16 @@
 				}
 
 				#services-7 .sbox-7 span[class*="flaticon-"] {
-					font-size: 26px !important; /* Smaller icons to fit square */
+					font-size: 26px !important;
+					/* Smaller icons to fit square */
 					margin: 0 0 5px 0 !important;
 					color: #007bff !important;
 					display: inline-block !important;
 				}
 
 				#services-7 .sbox-7 h5 {
-					font-size: 0.7rem !important; /* Smaller font to fit square */
+					font-size: 0.7rem !important;
+					/* Smaller font to fit square */
 					line-height: 1.15 !important;
 					font-weight: 700 !important;
 					color: #1e293b !important;
@@ -491,13 +514,18 @@
 					padding: 0 2px !important;
 				}
 			}
+
 			/* =============================================
 			   COMPREHENSIVE TABLET FIX (768px - 1024px)
 			   ============================================= */
 			@media (min-width: 768px) and (max-width: 1024px) {
-				
+
 				/* 1. SECTION SPACING & SYMMETRY (Match Laptop) */
-				.wide-100, .wide-80, .wide-70, .wide-60, .wide-40 {
+				.wide-100,
+				.wide-80,
+				.wide-70,
+				.wide-60,
+				.wide-40 {
 					padding-top: 80px !important;
 					padding-bottom: 80px !important;
 				}
@@ -608,7 +636,7 @@
 				}
 
 				/* 5. SERVICES GRID (3 Columns Match Laptop) */
-				#services-7 .row.justify-content-center > div {
+				#services-7 .row.justify-content-center>div {
 					flex: 0 0 33.333% !important;
 					max-width: 33.333% !important;
 					padding: 15px !important;
@@ -667,7 +695,8 @@
 					flex-wrap: wrap !important;
 				}
 
-				#blog-1 [class*="col-lg-"], #blog-1 .col-md-6 {
+				#blog-1 [class*="col-lg-"],
+				#blog-1 .col-md-6 {
 					flex: 0 0 33.333% !important;
 					max-width: 33.333% !important;
 					padding: 15px !important;
@@ -708,7 +737,9 @@
 					overflow: visible !important;
 				}
 
-				.blog-card-title, .blog-card-meta, .blog-card-excerpt {
+				.blog-card-title,
+				.blog-card-meta,
+				.blog-card-excerpt {
 					white-space: normal !important;
 					overflow: visible !important;
 					text-overflow: unset !important;
@@ -769,8 +800,7 @@
 
 <body>
 
-	<!-- PRELOADER SPINNER
-		============================================= -->
+
 	<!-- SKELETON LOADER
 		============================================= -->
 	<div id="skeleton-loader">
@@ -884,7 +914,7 @@
 				</ul>
 
 				<div class="hero-buttons">
-					<a href="#hero-section-form" class="btn-premium">Book Appointment</a>
+					<a href="pages/appointment.html" class="btn-premium">Book Appointment</a>
 				</div>
 			</div>
 
@@ -916,7 +946,7 @@
 								<!-- View More Overlay -->
 								<div class="doctor-image-overlay">
 									<div class="doctor-overlay-content">
-										<a href="doctor-1.html" class="btn-view-profile">
+										<a href="pages/doctor-1.html" class="btn-view-profile">
 											View Profile
 										</a>
 									</div>
@@ -1164,21 +1194,21 @@
 							<div class="sbox-7 icon-xs wow fadeInUp" data-wow-delay="0.4s">
 								<!-- <a href="service-1.html"> -->
 
-									<!-- Icon -->
-									<span class="flaticon-026-bones blue-color"></span>
+								<!-- Icon -->
+								<span class="flaticon-026-bones blue-color"></span>
+
+								<!-- Text -->
+								<div class="sbox-7-txt">
+
+									<!-- Title -->
+									<h5 class="h5-sm steelblue-color">Joint Replacement Surgery</h5>
 
 									<!-- Text -->
-									<div class="sbox-7-txt">
+									<p class="p-sm">Hip and knee replacement with modern implants and rapid recovery
+										pathways for lasting mobility.
+									</p>
 
-										<!-- Title -->
-										<h5 class="h5-sm steelblue-color">Joint Replacement Surgery</h5>
-
-										<!-- Text -->
-										<p class="p-sm">Hip and knee replacement with modern implants and rapid recovery
-											pathways for lasting mobility.
-										</p>
-
-									</div>
+								</div>
 
 								<!-- </a> -->
 							</div>
@@ -1189,21 +1219,21 @@
 							<div class="sbox-7 icon-xs wow fadeInUp" data-wow-delay="0.6s">
 								<!-- <a href="service-2.html"> -->
 
-									<!-- Icon -->
-									<span class="flaticon-008-ambulance-6 blue-color"></span>
+								<!-- Icon -->
+								<span class="flaticon-008-ambulance-6 blue-color"></span>
+
+								<!-- Text -->
+								<div class="sbox-7-txt">
+
+									<!-- Title -->
+									<h5 class="h5-sm steelblue-color">Fracture &amp; Trauma Care</h5>
 
 									<!-- Text -->
-									<div class="sbox-7-txt">
+									<p class="p-sm">Expert fixation and rehabilitation for fractures, polytrauma,
+										and complex injuries.
+									</p>
 
-										<!-- Title -->
-										<h5 class="h5-sm steelblue-color">Fracture &amp; Trauma Care</h5>
-
-										<!-- Text -->
-										<p class="p-sm">Expert fixation and rehabilitation for fractures, polytrauma,
-											and complex injuries.
-										</p>
-
-									</div>
+								</div>
 
 								<!-- </a> -->
 							</div>
@@ -1214,21 +1244,21 @@
 							<div class="sbox-7 icon-xs wow fadeInUp" data-wow-delay="0.8s">
 								<!-- <a href="service-1.html"> -->
 
-									<!-- Icon -->
-									<span class="flaticon-031-scanner blue-color"></span>
+								<!-- Icon -->
+								<span class="flaticon-031-scanner blue-color"></span>
+
+								<!-- Text -->
+								<div class="sbox-7-txt">
+
+									<!-- Title -->
+									<h5 class="h5-sm steelblue-color">Spine Treatment</h5>
 
 									<!-- Text -->
-									<div class="sbox-7-txt">
+									<p class="p-sm">Conservative and surgical spine care for disc problems,
+										stenosis, and deformity when indicated.
+									</p>
 
-										<!-- Title -->
-										<h5 class="h5-sm steelblue-color">Spine Treatment</h5>
-
-										<!-- Text -->
-										<p class="p-sm">Conservative and surgical spine care for disc problems,
-											stenosis, and deformity when indicated.
-										</p>
-
-									</div>
+								</div>
 
 								<!-- </a> -->
 							</div>
@@ -1239,21 +1269,21 @@
 							<div class="sbox-7 icon-xs wow fadeInUp" data-wow-delay="1s">
 								<!-- <a href="service-2.html"> -->
 
-									<!-- Icon -->
-									<span class="flaticon-076-microscope blue-color"></span>
+								<!-- Icon -->
+								<span class="flaticon-076-microscope blue-color"></span>
+
+								<!-- Text -->
+								<div class="sbox-7-txt">
+
+									<!-- Title -->
+									<h5 class="h5-sm steelblue-color">Arthroscopy (Knee &amp; Shoulder)</h5>
 
 									<!-- Text -->
-									<div class="sbox-7-txt">
+									<p class="p-sm">Minimally invasive arthroscopic procedures for ligament,
+										meniscus, and shoulder disorders.
+									</p>
 
-										<!-- Title -->
-										<h5 class="h5-sm steelblue-color">Arthroscopy (Knee &amp; Shoulder)</h5>
-
-										<!-- Text -->
-										<p class="p-sm">Minimally invasive arthroscopic procedures for ligament,
-											meniscus, and shoulder disorders.
-										</p>
-
-									</div>
+								</div>
 
 								<!-- </a> -->
 							</div>
@@ -1264,21 +1294,21 @@
 							<div class="sbox-7 icon-xs wow fadeInUp" data-wow-delay="1.2s">
 								<!-- <a href="service-1.html"> -->
 
-									<!-- Icon -->
-									<span class="flaticon-057-crutch blue-color"></span>
+								<!-- Icon -->
+								<span class="flaticon-057-crutch blue-color"></span>
+
+								<!-- Text -->
+								<div class="sbox-7-txt">
+
+									<!-- Title -->
+									<h5 class="h5-sm steelblue-color">Physiotherapy &amp; Rehabilitation</h5>
 
 									<!-- Text -->
-									<div class="sbox-7-txt">
+									<p class="p-sm">Structured rehab to restore strength, balance, and range of
+										motion after surgery or injury.
+									</p>
 
-										<!-- Title -->
-										<h5 class="h5-sm steelblue-color">Physiotherapy &amp; Rehabilitation</h5>
-
-										<!-- Text -->
-										<p class="p-sm">Structured rehab to restore strength, balance, and range of
-											motion after surgery or injury.
-										</p>
-
-									</div>
+								</div>
 
 								<!-- </a> -->
 							</div>
@@ -1289,21 +1319,21 @@
 							<div class="sbox-7 icon-xs wow fadeInUp" data-wow-delay="1.4s">
 								<!-- <a href="service-2.html"> -->
 
-									<!-- Icon -->
-									<span class="flaticon-044-dumbbell blue-color"></span>
+								<!-- Icon -->
+								<span class="flaticon-044-dumbbell blue-color"></span>
+
+								<!-- Text -->
+								<div class="sbox-7-txt">
+
+									<!-- Title -->
+									<h5 class="h5-sm steelblue-color">Sports Injury Treatment</h5>
 
 									<!-- Text -->
-									<div class="sbox-7-txt">
+									<p class="p-sm">Diagnosis and treatment of ACL tears, rotator cuff injuries, and
+										other athletic conditions.
+									</p>
 
-										<!-- Title -->
-										<h5 class="h5-sm steelblue-color">Sports Injury Treatment</h5>
-
-										<!-- Text -->
-										<p class="p-sm">Diagnosis and treatment of ACL tears, rotator cuff injuries, and
-											other athletic conditions.
-										</p>
-
-									</div>
+								</div>
 
 								<!-- </a> -->
 							</div>
@@ -1461,7 +1491,7 @@
 										</div> <!-- End Options List -->
 
 										<!-- Button -->
-										<a href="service-1.html" class="btn btn-blue blue-hover mt-30">View More
+										<a href="pages/service-1.html" class="btn btn-blue blue-hover mt-30">View More
 											Details</a>
 
 									</div>
@@ -1659,7 +1689,7 @@
 								<!-- TAB-4 IMAGE -->
 								<div class="col-lg-6">
 									<div class="tab-img-container">
-										<img src="assets/images/blog/d9.png" alt="Digital X-ray imaging" />
+										<img src="assets/images/blog/d9.jpeg" alt="Digital X-ray imaging" />
 									</div>
 								</div>
 
