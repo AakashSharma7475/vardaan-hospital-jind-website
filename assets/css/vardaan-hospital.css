@@ -5183,12 +5183,12 @@ img:not(.vardaan-brand-mark):not([class*="ico-"]):not(.loader):not([src*="favico
 
 .about-img-frame {
   position: relative;
-  width: 100% !important;
-  margin: 0 !important;
+  width: 90% !important;
+  margin: 0 auto !important;
   display: block !important;
-  border-radius: 0;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: none; /* Shadow removed for cleaner edge-to-edge look */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Clean shadow since it's no longer edge-to-edge */
 }
 
 /* Add padding back to the text section only */
@@ -5199,9 +5199,8 @@ img:not(.vardaan-brand-mark):not([class*="ico-"]):not(.loader):not([src*="favico
 .about-main-img {
   width: 100%;
   height: auto;
-  /* Changed from 400px to auto to prevent cutting */
-  min-height: 400px;
-  /* Maintain some vertical presence on desktop */
+  min-height: 350px;
+  max-height: 480px;
   object-fit: cover;
   transition: transform 0.8s ease;
 }
