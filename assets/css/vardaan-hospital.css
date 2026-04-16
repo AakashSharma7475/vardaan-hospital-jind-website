@@ -6544,3 +6544,28 @@ img:not(.vardaan-brand-mark):not([class*="ico-"]):not(.loader):not([src*="favico
     display: none !important;
   }
 }
+
+/* ================================================================ */
+/* DESKTOP HERO ALIGNMENT FIX — min-width: 1024px only             */
+/* Goal: hero heading left-edge === navbar logo text left-edge      */
+/* Navbar logo text starts at: icon(40px) + gap(10px) = 50px       */
+/* from the container left edge — match that here.                  */
+/* ================================================================ */
+@media (min-width: 1024px) {
+
+  /* Match hero container exactly to header-container (width:90%, auto margins) */
+  .hero-container {
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Offset hero text to start where navbar logo TEXT starts
+     (after the cross icon 40px + gap 10px = 50px) */
+  .hero-left {
+    margin-left: 0 !important;
+    padding-left: 50px !important;
+  }
+}
